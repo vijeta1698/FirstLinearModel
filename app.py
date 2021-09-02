@@ -1,7 +1,8 @@
 from flask import Flask,request,render_template
 from test import FirstLinearModel
-app = Flask(__name__)
 import os
+app = Flask(__name__)
+
 
 @app.route('/',methods = ['GET','POST'])
 def ind():
